@@ -1,3 +1,9 @@
+/*
+for fixing a har file created by Chrome.
+Relies on having a valid json object on each line,
+and strips out lines are not valid.
+*/
+
 const 
   fs = require('fs')
   ,split2 = require('split2')
